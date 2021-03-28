@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Супер важный опрос</title>
+	<style type="text/css">
+		body{
+			background-color: #EAD39C;
+		}
+		h1{
+			text-align: center;
+			color: 7D5E3C;
+		}
+
+		div{
+			text-align: center;
+		}
+		input{
+			height:200px;
+    		width:400px;
+    		font-size: 32px;
+    		background-color: #662225;
+    		margin: 30px;
+		}
+		input:hover, input:active{
+			background-color: #B51D0A;
+		}
+	</style>
+	<script type="text/javascript">
+		function sayRightChoice(){
+			alert("Очень правильный выбор!")
+		}
+	</script>
+</head>
+<body>
+	<div>
+		<h1>Ты не против погулять в пятницу?</h1>
+	</div>
+	<div>
+		<input type="submit" name="yes" onclick="sayRightChoice()" value="Да, не против)"/>
+		<input type="submit" name="no" onclick="sayRightChoice()" value="Нет, не против)" />
+	</div>
+</body>
+</html>
